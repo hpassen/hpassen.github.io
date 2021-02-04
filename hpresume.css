@@ -1,0 +1,187 @@
+body, html {
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.info_head {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 3%;
+  width: 100%;
+}
+
+
+.two_col {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 30px;
+  border-top: 1px solid lightgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cell {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.org {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 30%;
+  height: 100%;
+  padding-right: 15px;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  width: 70%;
+  height: 100%;
+  padding-left: 15px;
+  border-left: 1px solid #2e6a92;
+}
+
+.position {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 3px
+}
+
+
+.profile_pic {
+  border-radius: 50%;
+  border: 1px solid #efefef;
+  max-width: 200px;
+  height: auto;
+}
+
+.icon {
+  max-height: 25px;
+  width: auto;
+  padding-bottom: 5px;
+}
+
+.bump_left {
+  margin-left: 15px;
+}
+
+.bump_bottom {
+  margin-bottom: 10px;
+}
+
+.clean {
+  text-decoration: none;
+  border: none;
+  color: auto
+}
+
+.tight {
+  padding-top: none;
+  padding-bottom: none;
+}
+
+.border_r {
+  border-right: 1px solid darkslategray;
+}
+
+.dates {
+  text-align: right;
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #2e6a92;
+  font-style: Arial;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+h2 {
+  font-size: 22px;
+  color: #2e6a92;
+  font-style: Arial;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 18px;
+  color: darkslategray;
+  font-style: Arial;
+  font-weight: bolder;
+  text-align: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+
+h4 {
+  font-size: 18px;
+  color: darkslategray;
+  font-style: Arial;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+
+p {
+  font-style: Arial;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 2px;
+}
+
+a {
+  padding-bottom: 5px;
+}
