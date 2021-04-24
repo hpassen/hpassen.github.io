@@ -96,6 +96,11 @@ section {
   padding-bottom: 5px;
 }
 
+.dates {
+  text-align: right;
+  margin-left: 10px;
+}
+
 .profile_pic {
   border-radius: 50%;
   border: 1px solid #efefef;
@@ -141,11 +146,6 @@ section {
 
 .border_r {
   border-right: 1px solid darkslategray;
-}
-
-.dates {
-  text-align: right;
-  margin-left: 10px;
 }
 
 h1 {
