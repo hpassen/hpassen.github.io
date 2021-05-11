@@ -122,6 +122,10 @@ section {
   margin-bottom: 10px;
 }
 
+.big_bottom {
+  margin-bottom: 30px;
+}
+
 .clean {
   text-decoration: none;
   border: none;
@@ -153,7 +157,7 @@ h1 {
   color: #2e6a92;
   font-weight: normal;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   padding-top: 10px;
 }
 
