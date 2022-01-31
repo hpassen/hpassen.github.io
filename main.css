@@ -149,7 +149,7 @@ section {
 }
 
 .border_r {
-  border-right: 1px solid darkslategray;
+  border-right: 1px solid #2e6a92;
 }
 
 h1 {
@@ -173,7 +173,7 @@ h2 {
 
 h3 {
   font-size: 18px;
-  color: darkslategray;
+  color: #333d49;
   font-style: Arial;
   font-weight: bolder;
   text-align: right;
@@ -184,7 +184,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: darkslategray;
+  color: #333d49;
   font-style: Arial;
   font-weight: normal;
   margin-top: 0px;
@@ -196,6 +196,7 @@ p {
   font-style: Arial;
   font-size: 16px;
   line-height: 19px;
+  color: #333d49;
   margin: 2px;
 }
 
