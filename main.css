@@ -35,16 +35,6 @@ section {
   border-width: 2px;
 }
 
-.boxes {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  padding-left: 5px;
-  border: yellow;
-  border-width: 2px;
-}
-
 .two_col {
   display: flex;
   flex-direction: row;
@@ -140,6 +130,10 @@ section {
 
 .big_bottom {
   margin-bottom: 30px;
+}
+
+.big_left {
+  margin-left: 30px;
 }
 
 .clean {
