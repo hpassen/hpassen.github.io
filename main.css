@@ -130,6 +130,10 @@ section {
   margin-left: 30px;
 }
 
+.big_right {
+  margin-right: 30px;
+}
+
 .clean {
   text-decoration: none;
   border: none;
